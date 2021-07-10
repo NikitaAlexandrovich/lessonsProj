@@ -157,6 +157,7 @@ if __name__ == '__main__':
             elif decision == 8:
                 task_num_eight()
             else:
+		print("Завершили программу!")
                 break
         except Exception as ex:
             print("Очень грустно что ввели ерунду( Попробуйте заново и у Вас получится!")
