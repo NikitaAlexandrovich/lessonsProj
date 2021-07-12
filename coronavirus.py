@@ -1,7 +1,7 @@
 from turtle import *
 color("red")
 bgcolor("grey")
-speed(15)
+speed(10)
 hideturtle()
 b = 0
 while b < 200:
