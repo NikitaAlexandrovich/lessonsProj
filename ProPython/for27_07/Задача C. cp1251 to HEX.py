@@ -1,0 +1,1 @@
+print(bytes(input(), encoding='cp1251').hex())

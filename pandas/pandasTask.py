@@ -49,7 +49,7 @@ print(data[data["hours_per_week"] == maxHours].count())
 
 # 10. Посчитайте среднее время работы (hours-per-week) зарабатывающих мало и много (salary)
 # для каждой страны (native-country).
-print(data.groupby(['native_country', 'salary'])[['hours_per_week']].mean())
+print(data.groupby(['native_country' == "Japan", 'salary'])[['hours_per_week']].mean())
 
 
 
